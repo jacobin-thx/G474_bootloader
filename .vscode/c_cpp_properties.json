@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "STM32",
+      "includePath": [
+        "${workspaceRoot}/**"
+        
+      ],
+      "defines": [
+        "STM32G474xx",
+        "USE_HAL_DRIVER"
+      ],
+      "compilerPath": "/usr/bin/arm-none-eabi-gcc"
+    }
+  ],
+  "version": 4
+}

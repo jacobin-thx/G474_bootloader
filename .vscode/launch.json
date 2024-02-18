@@ -1,0 +1,19 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "openocd",
+			"type": "cortex-debug",
+			"request": "launch",
+			"cwd": "${workspaceRoot}",
+			"servertype": "openocd",
+			"executable": "./build/Habr.elf",
+			"svdFile": "STM32F103.svd",
+			"configFiles": [
+				"interface/stlink-v2.cfg",
+				"target/stm32f1x.cfg"
+			],
+			"preLaunchTask": "Build"
+		}
+	]
+}

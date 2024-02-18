@@ -1,0 +1,4 @@
+{
+	"cortex-debug.armToolchainPath": "/opt/st/stm32cubeclt/GNU-tools-for-STM32/bin",
+	"cortex-debug.openocdPath": "/usr/bin/openocd"
+}
